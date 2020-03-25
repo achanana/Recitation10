@@ -9,7 +9,6 @@ import java.util.*;
 public class MoneyDoorPlugin implements GamePlugin {
 
     private int[] arr = {-3, -2, -1, 0, 1, 2, 3, 4, 5, 6};
-    private int ONE = 1;
     private int TEN = 10;
 
     // The game framework
@@ -27,7 +26,7 @@ public class MoneyDoorPlugin implements GamePlugin {
     }
 
     public int getGridHeight() {
-        return ONE;
+        return 1;
     }
 
     public void onRegister(GameFramework fwk) {
